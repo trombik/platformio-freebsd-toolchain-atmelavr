@@ -1,4 +1,4 @@
-# `platformio-freebsd-toolchain-xtensa`
+# `platformio-freebsd-toolchain-atmelavr`
 
 Trick `platformio` so that it thinks `toolchain-atmelavr`, a `platformio`
 package, is installed.
