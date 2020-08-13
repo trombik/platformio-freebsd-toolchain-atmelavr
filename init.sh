@@ -3,7 +3,7 @@
 : ${AVR_DIR:="/usr/local/avr"}
 : ${AVR_GCC_DIR:="/usr/local/lib/gcc/avr"}
 
-VERSION="1.70300.191015"
+VERSION="1.50400.0"
 DESC="toolchain-atmelavr"
 REPO_NAME="platformio-freebsd-${DESC}"
 REPO_OWNER="trombik"
