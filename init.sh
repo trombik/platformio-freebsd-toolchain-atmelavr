@@ -30,3 +30,14 @@ cat <<__EOF__ >package.json
     "version": "${VERSION}"
 }
 __EOF__
+cat <<__EOF__ >.piopm
+{
+  "type": "tool",
+  "name": "${DESC}",
+  "version": "${VERSION}",
+  "spec": {
+    "owner": "platformio",
+    "name": "${DESC}",
+    "url": "https://github.com/trombik/platformio-freebsd-toolchain-atmelavr"
+  }
+}
